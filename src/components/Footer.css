@@ -1,0 +1,64 @@
+.footer {
+    background: #222;
+    color: #fff;
+    margin-top: 2rem;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+ .footer-links button {
+    overflow: hidden;
+    border-radius: 50%;
+    height: 2.5rem; 
+    width: 2.5rem; 
+    cursor: pointer;
+    z-index: 10;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 800;
+    transition: all 0.2s ease-in-out;
+}
+
+.footer-links button:hover{
+  scale: 1.2;
+}
+  
+  .footer-links  button.whatsapp {
+    color: green;
+    border: 1px solid green;
+    animation-delay: 0.6s;
+}
+.footer-links  button.gmail {
+    color: red;
+    border: 1px solid red;
+    animation-delay: 0.2s;
+}
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-contact {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-contact p {
+    margin: 0.5rem 0;
+  }
+  
+  .footer-bottom {
+    font-size: 0.9rem;
+  }
+  

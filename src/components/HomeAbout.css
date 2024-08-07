@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+Grund:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.home-about-container {
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  height: 100vh;
+  transition: background 0.5s ease-in-out;
+  z-index: 8;
+}
+
+.home-about-container.active {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.about-heading {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5% 10%;
+}
+
+.about-para {
+  position: relative;
+  height: inherit;
+  width: 45%;
+  animation: aboutfloat 5s infinite ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes aboutfloat {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.quotes {
+  color: #0cf20c;
+  height: 6rem;
+  font-size: 6rem;
+  width: auto;
+}
+
+.quotes h1 {
+  font-family: "Dancing Script", cursive;
+  height: inherit;
+}
+
+.q-top {
+  position: absolute;
+  top: -5rem;
+  left: -2rem;
+}
+
+.q-bottom {
+  position: absolute;
+  bottom: -5rem;
+  right: -2rem;
+}
+
+.flex-container p {
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.flex-container .image-container {
+  width: 45%;
+    padding: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 36px solid white;
+    position: relative;
+    overflow: hidden;
+    border-top-color: red;
+    border-bottom-color: limegreen;
+}
+
+.flex-container .image-container .profile-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.8s ease-in-out;
+  transform: rotate(-30deg);
+}
+
+.home-about-container.active .profile-image {
+  transform: rotate(0deg);
+}

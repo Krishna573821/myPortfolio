@@ -1,0 +1,44 @@
+.education {
+    padding: 2rem;
+    color: #fff;
+  }
+  
+  .education-heading {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .education-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .education-item {
+    background: #333;
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 600px;
+    text-align: center;
+    animation: float infinite 6s ease-in-out;
+  }
+
+ 
+  .degree {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .institution {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .duration {
+    font-size: 1rem;
+    color: #aaa;
+  }
+  

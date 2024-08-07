@@ -1,0 +1,46 @@
+#scroller {
+  padding-top: 2rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
+}
+
+#scroller::-webkit-scrollbar {
+  display: none;
+}
+
+#scroller-in {
+  display: inline-block;
+  white-space: nowrap;
+  animation-name: scroll;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+#scroller h4 {
+  display: inline-block;
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: Gilroy, sans-serif;
+  text-transform: uppercase;
+  margin-right: 1.5rem;
+  color: transparent;
+  -webkit-text-stroke: 0.1rem #95c11e;
+  transition: all linear 0.5s;
+}
+
+#scroller h4:hover {
+  color: #95c11e;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

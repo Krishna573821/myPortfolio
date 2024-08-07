@@ -1,0 +1,40 @@
+#nav{
+    height: 5.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+    position: fixed;
+    z-index: 99;
+    background: #00000074;
+    box-shadow: 0px 0px 5px 4px grey;
+    padding: 0.5rem 1rem;
+
+}
+
+#nav img{
+    height: 4rem;
+}
+
+#nav h4{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    transition: all 0.2s ease-in;
+}
+
+#nav h4:hover{
+    color: lightgreen;
+}
+
+#nav a{
+    text-decoration: none;
+}
+
+
+#nav .menuItems {
+    gap: 2rem;
+    display: flex;
+    
+}
