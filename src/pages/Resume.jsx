@@ -38,13 +38,11 @@ const Resume = () => {
           <strong>Amity University Lucknow</strong><br />
           Master of Computer Applications (MCA)<br />
           2023 - 2025<br />
-          CGPA (Semester 2): 8.70
         </p>
         <p>
           <strong>Amity University Lucknow</strong><br />
           Bachelor of Computer Applications (BCA)<br />
           2020 - 2023<br />
-          CGPA: 8.11
         </p>
       </div>
       <div className="resume-section">

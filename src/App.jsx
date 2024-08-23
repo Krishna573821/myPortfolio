@@ -18,37 +18,17 @@ import Footer from "./components/Footer.jsx";
 function App() {
   const projects = [
     {
-      title: 'Gallery of Reflections',
-      image: ImgGalleryOfReflections,
-      technology: ['HTML', 'CSS', 'JavaScript'],
-      description: 'An image gallery showcasing various reflections with interactive features.',
-      link: 'https://krishna573821.github.io/GalleryOfReflections/' 
-    },
-    {
       title: 'Kymall',
       image: ImgKymall,
       technology: ['HTML', 'CSS', 'JavaScript'],
       description: 'A shopping website with basic product listing and cart functionality.',
       link: 'https://krishna573821.github.io/ClothesStore/' 
     },
-    {
-      title: 'Simple Todo App',
-      image: ImgTodoApp,
-      technology: ['HTML', 'CSS', 'JavaScript'],
-      description: 'A simple todo app that allows users to add, edit, and delete tasks.',
-      link: 'https://krishna573821.github.io/simpleToDo/' 
-    },
-    {
-      title: 'Stone Paper Scissor Game',
-      image: ImgStonePaperScissor,
-      technology: ['HTML', 'CSS', 'JavaScript'],
-      description: 'A game where you can play Stone Paper Scissor with the computer.',
-      link: 'https://krishna573821.github.io/Stone_Paper_Scissor/' 
-    }
   ];
   
   return (
     <>
+    <div className="black-background-permanent"></div>
       <div className="main-container">
         <video autoPlay loop muted src={Video}></video>
         <Socials />
