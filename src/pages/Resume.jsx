@@ -8,7 +8,7 @@ const Resume = () => {
       <div className="resume-container">
         <div className="resume-header">
           <h1>Krishna Kumar Yadav</h1>
-          <h2>Frontend Developer</h2>
+          <h2>Developer</h2>
         </div>
         <div className="resume-contact">
           <p>Phone: 8604712704</p>
@@ -24,7 +24,7 @@ const Resume = () => {
         </div>
         <div className="resume-section">
           <h3>Technical Skills</h3>
-          <p>C, C++, HTML, CSS, JavaScript, React</p>
+          <p>C, C++, HTML, CSS, JavaScript, React, SCSS</p>
         </div>
         <div className="resume-section">
           <h3>Soft Skills</h3>
@@ -77,6 +77,14 @@ const Resume = () => {
             <br />
             Created a comprehensive e-commerce platform with a user-friendly
             interface.
+          </p>
+          
+          <p>
+            <strong>Portfolio</strong>
+            <br />
+            Language/Technology Used: HTML, CSS, JavaScript, REACT
+            <br />
+            Created a Portfolio website for myself
           </p>
         </div>
         <div className="resume-section">
