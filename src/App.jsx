@@ -9,9 +9,7 @@ import Header from "./components/Header.jsx";
 import Video from "./assets/videos/background.webm"
 import Socials from "./components/Socials.jsx";
 import ImgKymall from "./assets/images/ProjectOne.webp"
-import ImgTodoApp from "./assets/images/ProjectTwo.webp"
-import ImgStonePaperScissor from "./assets/images/ProjectThree.webp"
-import ImgGalleryOfReflections from "./assets/images/ProjectFour.webp"
+import ImgFlipFortune from "./assets/images/ProjectTwo.webp"
 import Footer from "./components/Footer.jsx";
 
 
@@ -23,6 +21,13 @@ function App() {
       technology: ['HTML', 'CSS', 'JavaScript'],
       description: 'A shopping website with basic product listing and cart functionality.',
       link: 'https://krishna573821.github.io/ClothesStore/' 
+    },
+    {
+      title: 'FlipFortune',
+      image: ImgFlipFortune,
+      technology: ['HTML', 'CSS', 'JavaScript', 'REACT'],
+      description: 'FlipFortune is an exciting blockchain-based coin flip game where every decision counts.',
+      link: 'https://flip-fortune.vercel.app/' 
     },
   ];
   
