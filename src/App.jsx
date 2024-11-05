@@ -9,7 +9,7 @@ import Header from "./components/Header.jsx";
 import Video from "./assets/videos/background.webm"
 import Socials from "./components/Socials.jsx";
 import ImgKymall from "./assets/images/ProjectOne.webp"
-import ImgFlipFortune from "./assets/images/ProjectTwo.webp"
+import comingSoon from "./assets/images/comingSoon.webp"
 import Footer from "./components/Footer.jsx";
 
 
@@ -23,11 +23,11 @@ function App() {
       link: 'https://krishna573821.github.io/ClothesStore/' 
     },
     {
-      title: 'FlipFortune',
-      image: ImgFlipFortune,
-      technology: ['HTML', 'CSS', 'JavaScript', 'REACT'],
-      description: 'FlipFortune is an exciting blockchain-based coin flip game where every decision counts.',
-      link: 'https://flip-fortune.vercel.app/' 
+      title: 'Job Portal',
+      image: comingSoon,
+      technology: ['HTML', 'CSS', 'JavaScript', 'REACT', 'NODE', 'EXPRESS', 'MONGODB'],
+      description: 'A Full Stack Job Portal with user authentication and job posting functionality.',
+      // link: '' 
     },
   ];
   
