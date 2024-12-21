@@ -27,7 +27,7 @@ function App() {
       image: comingSoon,
       technology: ['HTML', 'CSS', 'JavaScript', 'REACT', 'NODE', 'EXPRESS', 'MONGODB'],
       description: 'A Full Stack Job Portal with user authentication and job posting functionality.',
-      // link: '' 
+      link: 'https://careerlink-xi.vercel.app/' 
     },
   ];
   
