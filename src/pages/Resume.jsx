@@ -8,37 +8,28 @@ const Resume = () => {
          <div className="resume-container">
             <div className="resume-header">
                <h1>KRISHNA KUMAR YADAV</h1>
-               <h2>Frontend Developer</h2>
+               <h2>Software Developer</h2>
             </div>
             <div className="resume-contact">
                <p>Mob: 8604712704</p>
                <p>
-                  Email:{" "}
-                  <a href="mailto:krishna573821@gmail.com">
-                     krishna573821@gmail.com
-                  </a>
+                  Email: <a href="mailto:krishna573821@gmail.com">krishna573821@gmail.com</a>
                </p>
+               <p>Location: Lucknow, Uttar Pradesh, India</p>
             </div>
             <div className="resume-section">
                <h3>About Me</h3>
                <p>
-                  I am a dedicated and sincere individual with a passion for
-                  front-end development and a solid grasp of the basics of the
-                  MERN stack. I am confident in my ability to contribute
-                  effectively and would be grateful for the opportunity to prove
-                  myself as a valuable asset to your team.
+                  A passionate frontend developer with strong foundational skills in the MERN stack and a demonstrated ability to build responsive and interactive web applications. I am dedicated, detail-oriented, and eager to leverage my skills to contribute to a dynamic team environment. Seeking opportunities to grow as a developer and contribute meaningfully to impactful projects.
                </p>
             </div>
             <div className="resume-section">
                <h3>Technical Skills</h3>
-               <ul style={{"list-style-type":"none"}}>
-                  <li>C</li>
-                  <li>C++</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                  <li>GSAP</li>
-                  <li>React</li>
+               <ul style={{"listStyleType":"none"}}>
+                  <li>Programming Languages: C, C++</li>
+                  <li>Frontend Development: HTML, CSS, JavaScript, React, GSAP</li>
+                  <li>Backend & Database (Basic Knowledge): MongoDB, Express, MySQL</li>
+                  <li>Additional Tools & Libraries: Version control with Git</li>
                </ul>
             </div>
             <div className="resume-section">
@@ -49,8 +40,7 @@ const Resume = () => {
                   Amity University, Lucknow
                </p>
                <p>
-                  <strong>Bachelor of Computer Applications (BCA)</strong>{" "}
-                  <br />
+                  <strong>Bachelor of Computer Applications (BCA)</strong> <br />
                   2020 – 2023 <br />
                   Amity University, Lucknow
                </p>
@@ -59,36 +49,35 @@ const Resume = () => {
                <h3>Projects</h3>
                <p>
                   <strong>Hypermart Management/Billing System</strong> <br />
-                  Language/Technology Used: C++ <br />
-                  Developed software to manage various operations at a
-                  hypermart, including adding, updating, viewing products, and
-                  generating bills.
+                  Tech Stack: C++ <br />
+                  Developed a software application to streamline hypermart operations, including inventory management, billing, and customer records. This project enhanced my problem-solving skills in a real-world setting and solidified my understanding of object-oriented programming in C++.
                </p>
                <p>
                   <strong>Ecommerce Website</strong> <br />
-                  Language/Technology Used: HTML, CSS, JavaScript <br />
-                  Created an e-commerce platform with a user-friendly interface.
+                  Tech Stack: HTML, CSS, JavaScript <br />
+                  Designed and implemented a fully functional e-commerce platform. Key features include a product catalog, shopping cart, and filters with a user-friendly interface that prioritizes customer experience. Developed responsive layouts to ensure seamless navigation across devices.
                </p>
                <p>
-                  <strong>Portfolio Website</strong> <br />
-                  Language/Technology Used: HTML, CSS, JavaScript, React <br />
-                  Created a portfolio website for myself.
+                  <strong>Job Portal</strong> <br />
+                  Tech Stack: HTML, CSS, JavaScript, React, Node.js, Express, MongoDB <br />
+                  Developed a job portal featuring a user-friendly seeker dashboard with job listings and advanced filters. Integrated profile management and API handling to streamline functionality. This project enhanced my proficiency in the MERN stack and reinforced my understanding of building full-stack web applications.
                </p>
+            </div>
+            <div className="resume-section">
+               <h3>Certificates/Achievements</h3>
+               <p>Google Cybersecurity Certificate</p>
             </div>
             <div className="resume-section">
                <h3>Soft Skills</h3>
-               <ul style={{"list-style-type":"none"}}>
+               <ul style={{"listStyleType":"none"}}>
                   <li>Honest</li>
-                  <li>Productive</li>
-                  <li>Respectful</li>
                   <li>Team Oriented</li>
+                  <li>Quick Learner</li>
+                  <li>Respectful</li>
                   <li>Reliable</li>
                   <li>Adaptable</li>
+                  <li>Productive</li>
                </ul>
-            </div>
-            <div className="resume-section">
-               <h3>Interests</h3>
-               <p>Playing Cricket and Listening to Music</p>
             </div>
             <a href={ResumePDF} download className="download-button">
                Download Resume
