@@ -1,6 +1,6 @@
 import React from "react";
 import "./Resume.css";
-import ResumePDF from "../assets/pdf/Krishna_Kumar_Yadav_Resume.pdf";
+import ResumePDF from "../assets/pdf/KRISHNA_KUMAR_YADAV_AMITY_UNIVERSITY_RESUME.pdf";
 
 const Resume = () => {
    return (
@@ -11,25 +11,63 @@ const Resume = () => {
                <h2>Software Developer</h2>
             </div>
             <div className="resume-contact">
-               <p>Mob: 8604712704</p>
+               <p>📞 Mobile: 8604712704</p>
                <p>
-                  Email: <a href="mailto:krishna573821@gmail.com">krishna573821@gmail.com</a>
+                  📩 Email:{" "}
+                  <a href="mailto:krishnaa.yadav.dev@gmail.com">
+                     krishnaa.yadav.dev@gmail.com
+                  </a>
                </p>
-               <p>Location: Lucknow, Uttar Pradesh, India</p>
+               <p>
+                  📍 Location: Lucknow, Uttar Pradesh, India (Open to
+                  Relocation)
+               </p>
             </div>
             <div className="resume-section">
-               <h3>About Me</h3>
+               <h3>Profile Summary</h3>
                <p>
-                  A passionate frontend developer with strong foundational skills in the MERN stack and a demonstrated ability to build responsive and interactive web applications. I am dedicated, detail-oriented, and eager to leverage my skills to contribute to a dynamic team environment. Seeking opportunities to grow as a developer and contribute meaningfully to impactful projects.
+                  A detail-oriented and passionate Frontend & Full Stack
+                  Developer with strong skills in responsive design and web
+                  application development. Proven ability to build scalable,
+                  user-friendly, and interactive applications using modern
+                  technologies like React, Redux Toolkit, Node.js, Express, and
+                  REST API integration.
+               </p>
+            </div>
+            <div className="resume-section">
+               <h3>Experience</h3>
+               <p>
+                  <strong>Backend Developer Intern</strong> <br />
+                  Rablo.in, Lucknow <br />
+                  March 3, 2025 – Present
                </p>
             </div>
             <div className="resume-section">
                <h3>Technical Skills</h3>
-               <ul style={{"listStyleType":"none"}}>
-                  <li>Programming Languages: C, C++</li>
-                  <li>Frontend Development: HTML, CSS, JavaScript, React, GSAP</li>
-                  <li>Backend & Database (Basic Knowledge): MongoDB, Express, MySQL</li>
-                  <li>Additional Tools & Libraries: Version control with Git</li>
+               <ul style={{ listStyleType: "none" }}>
+                  <li>
+                     <strong>Programming Languages:</strong> C, C++
+                  </li>
+                  <li>
+                     <strong>Frontend Development:</strong> HTML, CSS,
+                     JavaScript, React, Redux Toolkit, GSAP, Responsive Design,
+                     Tailwind CSS
+                  </li>
+                  <li>
+                     <strong> Backend & Database:</strong> Node.js, Express.js,
+                     MongoDB, MySQL, REST API Development
+                  </li>
+                  <li>
+                     <strong>Full Stack Development:</strong> MERN Stack, API
+                     Integration, Authentication & Authorization
+                  </li>
+                  <li>
+                     <strong>Version Control:</strong> Git and GitHub
+                  </li>
+                  <li>
+                     <strong>Software Architecture:</strong> High-Level Design
+                     (HLD), System Design
+                  </li>
                </ul>
             </div>
             <div className="resume-section">
@@ -40,45 +78,73 @@ const Resume = () => {
                   Amity University, Lucknow
                </p>
                <p>
-                  <strong>Bachelor of Computer Applications (BCA)</strong> <br />
+                  <strong>Bachelor of Computer Applications (BCA)</strong>{" "}
+                  <br />
                   2020 – 2023 <br />
                   Amity University, Lucknow
                </p>
             </div>
             <div className="resume-section">
+               <h3>Certifications/Achievements</h3>
+               <ul style={{ listStyleType: "none" }}>
+                  <li>- Google Cybersecurity Certificate</li>
+                  <li>
+                     - Full Stack Web Development Training/Internship
+                     Certificate
+                  </li>
+                  <li>
+                     - Basics of Data Structures and Algorithms Certificate
+                  </li>
+                  <li>
+                     - Full Stack Development Certificate (Advanced DSA | CS
+                     Fundamentals | System Design)
+                  </li>
+                  <li>
+                     - Introduction to Industry 4.0 and Industrial Internet of
+                     Things Certificate
+                  </li>
+               </ul>
+            </div>
+            <div className="resume-section">
                <h3>Projects</h3>
                <p>
                   <strong>Hypermart Management/Billing System</strong> <br />
-                  Tech Stack: C++ <br />
-                  Developed a software application to streamline hypermart operations, including inventory management, billing, and customer records. This project enhanced my problem-solving skills in a real-world setting and solidified my understanding of object-oriented programming in C++.
+                  <strong>Tech Stack:</strong> C++ <br />
+                  • Developed a software application to streamline hypermart
+                  operations, including inventory management and billing.
+                  <br />
+                  • Implemented object-oriented programming (OOP) principles to
+                  ensure a modular and scalable architecture.
+                  <br />• Enhanced problem-solving skills by optimizing
+                  real-world business operations through software solutions.
                </p>
                <p>
-                  <strong>Ecommerce Website</strong> <br />
-                  Tech Stack: HTML, CSS, JavaScript <br />
-                  Designed and implemented a fully functional e-commerce platform. Key features include a product catalog, shopping cart, and filters with a user-friendly interface that prioritizes customer experience. Developed responsive layouts to ensure seamless navigation across devices.
+                  <strong>E-commerce Website</strong> <br />
+                  <strong>Tech Stack:</strong> HTML, CSS, JavaScript <br />
+                  • Designed and implemented a fully functional, responsive
+                  e-commerce website using modern frontend development best
+                  practices.
+                  <br />
+                  • Integrated REST APIs to fetch product data dynamically,
+                  ensuring a seamless shopping experience.
+                  <br />• Developed mobile-friendly and cross-browser compatible
+                  layouts for enhanced user accessibility.
                </p>
                <p>
                   <strong>Job Portal</strong> <br />
-                  Tech Stack: HTML, CSS, JavaScript, React, Node.js, Express, MongoDB <br />
-                  Developed a job portal featuring a user-friendly seeker dashboard with job listings and advanced filters. Integrated profile management and API handling to streamline functionality. This project enhanced my proficiency in the MERN stack and reinforced my understanding of building full-stack web applications.
+                  <strong>Tech Stack:</strong> HTML, CSS, JavaScript, React, Node.js, Express,
+                  MongoDB <br />
+                  • Developed a full-stack job portal using the MERN stack with
+                  a responsive design tailored for job seekers as well as
+                  employers, used REST API for data retrieval.
+                  <br />
+                  • Implemented Redux Toolkit for efficient state management and
+                  improved UI responsiveness.
+                  <br />• Integrated job listing filters, profile management,
+                  and authentication features for enhanced functionality.
                </p>
             </div>
-            <div className="resume-section">
-               <h3>Certificates/Achievements</h3>
-               <p>Google Cybersecurity Certificate</p>
-            </div>
-            <div className="resume-section">
-               <h3>Soft Skills</h3>
-               <ul style={{"listStyleType":"none"}}>
-                  <li>Honest</li>
-                  <li>Team Oriented</li>
-                  <li>Quick Learner</li>
-                  <li>Respectful</li>
-                  <li>Reliable</li>
-                  <li>Adaptable</li>
-                  <li>Productive</li>
-               </ul>
-            </div>
+
             <a href={ResumePDF} download className="download-button">
                Download Resume
             </a>
