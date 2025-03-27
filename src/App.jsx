@@ -29,6 +29,13 @@ function App() {
       description: 'A Full Stack Job Portal with user authentication and job posting functionality.',
       // link: 'https://careerlink-xi.vercel.app/' 
     },
+    {
+      title: 'Restaurant Website',
+      image: comingSoon,
+      technology: ['HTML', 'CSS', 'JavaScript', 'REACT', 'NODE', 'EXPRESS', 'MONGODB'],
+      description: 'A Full Stack Restaurant Website from wehre can user can order food.',
+      // link: 'https://careerlink-xi.vercel.app/' 
+    }
   ];
   
   return (
